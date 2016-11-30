@@ -1,7 +1,7 @@
 @import url("reset.css");
-@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway');
 
-/* font-family: 'Oswald', sans-serif;
+/* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
 
 body{font:13px 'Raleway', sans-serif;;background:url(../images/overlay.png) #e8e9e9;}
@@ -10,10 +10,10 @@ body{font:13px 'Raleway', sans-serif;;background:url(../images/overlay.png) #e8e
 body,select,input,textarea{color:#333;}
 
 a{color:#565659;text-decoration:none;}
-a:hover{color:#5FC0C3;}
+a:hover{color:#5FC0C3;transition:.5s color;}
 
 /* Custom text-selection colors */
-::selection{background:#5FC0C3;color:#FFF;}
+::selection{background:#5FC0C3;color:#FFF;text-shadow:none;}
 
 /*	j.mp/webkit-tap-highlight-color */
 a:link{-webkit-tap-highlight-color:#fcd700;}
@@ -29,11 +29,22 @@ blockquote{padding:16px;background:#eee;}
 
 main{background:#FFF;}
 
-main > header{padding:3em 0;width:95%;margin:0 auto;font-family: 'Oswald', sans-serif;}
-
+main > header{padding:3em 0;width:95%;margin:0 auto;}
 main > header > h1 {display: inline;}
 main > header > h1 img {}
 main > header > ul {margin:0;padding:0;float:right;font-family: 'Raleway', sans-serif;}
 main > header > ul li {display:inline-block;text-transform:uppercase;color:#565659;padding:1em;font-size:1.2em;font-weight:bold;}
 main > header > ul li a.joinus{border:1px solid #23baed; border-radius:2px; color:#5FC0C3; padding:.6em 1.7em ;}
-main > header > ul li a.joinus:hover{color:#FFF;background:#23BAED;transition:.5s background;}
+main > header > ul li a.joinus:hover{color:#FFF;background:#23BAED;transition:.7s background;}
+
+main > section{background:url(../images/mainBanner.png);background-size:cover;background-repeat:no-repeat;color:#FFF;text-align:center;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); padding: 4em 0 2.5em 0;}
+main > section > div > h2{font-size: 4.5em;}
+main > section > div > section{width:60%;margin:0 auto;font-size:1.2em;line-height:1.5em;}
+main > section > div > section > div{font-size:1.4em;line-height:1.5em;padding:2em 0;font-family:'Open Sans',sans-serif}
+
+main > section.news{padding:2.5em 0;background:#F1F2F5;text-shadow:none;text-align:left;font-size:1.2em;font-family:'Open Sans',sans-serif}
+main > section.news > div{margin:0 auto;width:95%;color:#5a6175;}
+main > section.news > div > div{color:#5fc0c3;}
+main > section.news > div > div > span{color:#565659; font-weight:600;}
+main > section.news > div > button{float:right;border:none;background:#23BAED;color:#FFF;text-transform:uppercase;font-family:'Raleway',sans-serif;font-weight:bold;font-size:1em;padding:.7em 1.4em;border-radius:2px;border:1px solid #FFF;position:relative;top:-20px}
+main > section.news > div > button:hover{background:#FFF;color:#23BAED; border: 1px solid #23BAED;transition: .5s all;}
