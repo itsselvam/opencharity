@@ -65,11 +65,13 @@ main > section.ourMission{background:#F1F2F5;padding:3em 0;text-align:center;}
 main > section.ourMission h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;}
 main > section.ourMission > section{font-size: 1.1em;}
 main > section.ourMission > section h5{padding-top: 1.2em; font-size: 1em; font-weight: 600;}
-main > section.ourMission ul{width:98%;margin:0 auto;padding:.5em 0 0 0;font-family:'Open Sans',sans-serif;position:relative;top:-30px;}
-main > section.ourMission ul li{width:31.5%;float:left;display:inline-block;margin:0 .6em;color:#696f81; position: relative;}
+main > section.ourMission ul{width:95%;margin:0 auto;padding:.5em 0 0 0;font-family:'Open Sans',sans-serif;position:relative;top:-30px;}
+main > section.ourMission ul li{width:31.5%;display:inline-block;margin:0 .6em;color:#696f81; position: relative;}
 main > section.ourMission ul li > span{background:#23BAED;width:100px;height:100px;padding-top:20px;border-radius:50%;display:inline-block;border:8px solid #FFF;position:relative;top:50px;text-align:center;}
 main > section.ourMission ul li > span > i{color: #FFF; font-size: 3.5em; font-weight: normal;}
 main > section.ourMission ul li > div{background:#FFF; padding:4.5em 2em; border-radius:6px;}
 main > section.ourMission ul li > div > h4{color:#23BAED;font-size:1.3em;font-weight:600; padding-bottom: 1em;}
 /* OUR MEMBERS */
-main section.ourMembers{}
+main section.ourMembers{background:#F1F2F5;padding:0 0 3em 0;text-align:center; }
+main section.ourMembers > div{border-top:1px solid #d9dadd; width:90%; margin: 0 auto; padding-top:3em}
+main > section.ourMembers > div > h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;}
