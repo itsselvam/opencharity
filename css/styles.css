@@ -4,7 +4,7 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
 
-body{font:13px 'Raleway', sans-serif;;background:url(../images/overlay.png) #e8e9e9;}
+body{font:13px 'Raleway', sans-serif;}
 
 /* We like off-black for text. */
 body,select,input,textarea{color:#333;}
@@ -28,7 +28,7 @@ textarea:-moz-placeholder{color:#a9a9a9;}
 blockquote{padding:16px;background:#eee;}
 
 main{background:#FFF;}
-
+/* HEADER SECTION */
 main > header{padding:3em 0;width:95%;margin:0 auto;}
 main > header > h1 {display: inline;}
 main > header > h1 img {}
@@ -36,28 +36,40 @@ main > header > ul {margin:0;padding:0;float:right;font-family:'Raleway',sans-se
 main > header > ul li {display:inline-block;text-transform:uppercase;color:#565659;padding:1em;font-size:1.2em;font-weight:bold;}
 main > header > ul li.joinus a{border:1px solid #23baed; border-radius:2px; color:#5FC0C3; padding:.6em 1.7em ;}
 main > header > ul li.joinus a:hover{color:#FFF;background:#23BAED;transition:.7s background;}
-
+/* MAIN BANNER SECTION */
 main > section.mainBanner{background:url(../images/mainBanner.png);background-size:cover;background-repeat:no-repeat;color:#FFF;text-align:center;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); padding: 4em 0 2.5em 0;}
 main > section.mainBanner > div > h2{font-size: 4.5em;}
 main > section.mainBanner > div > section{width:60%;margin:0 auto;font-size:1.2em;line-height:1.5em;}
 main > section.mainBanner > div > section > div{font-size:1.4em;line-height:1.5em;padding:2em 0;font-family:'Open Sans',sans-serif}
-
+/* NEWS SECTION */
 main > section.news{padding:2.5em 0;background:#F1F2F5;text-shadow:none;text-align:left;font-size:1.2em;font-family:'Open Sans',sans-serif}
 main > section.news > div{margin:0 auto;width:95%;color:#5a6175;}
 main > section.news > div > div{color:#5FC0C3;}
 main > section.news > div > div > span{color:#565659; font-weight:600;}
 main > section.news > div > button{float:right;border:none;background:#23BAED;color:#FFF;text-transform:uppercase;font-family:'Raleway',sans-serif;font-weight:bold;font-size:1em;padding:.7em 1.4em;border-radius:2px;border:1px solid #23BAED;position:relative;top:-20px}
 main > section.news > div > button:hover{background:#FFF;color:#23BAED; border: 1px solid #23BAED;transition: .5s all;}
-
-main > section.getInvolved{padding:3em 0}
-main > section.getInvolved h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-align:center;text-transform:uppercase; font-weight:600;padding-bottom:1.5em;}
+/* GET INVOLVED SECTION */
+main > section.getInvolved{padding:3em 0;text-align:center;}
+main > section.getInvolved h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.5em;}
 main > section.getInvolved ul{width:95%;margin:0 auto;padding:0;font-family:'Open Sans',sans-serif;}
-main > section.getInvolved ul li{width:31.5%;float:left;display:inline-block;text-align:center;padding-top:12em;margin:0 .6em; color:#696f81}
+main > section.getInvolved ul li{width:31.5%;float:left;display:inline-block;padding:12em .5em 0 .5em;margin:0 .6em;color:#696f81}
 main > section.getInvolved ul li h4{font-size:1.5em;text-transform:uppercase;font-weight:600;color:#666; padding-bottom:1.2em;}
 main > section.getInvolved ul li.meetup{background: url(../images/meetup.gif)5em 2em no-repeat;background-size:50%;}
 main > section.getInvolved ul li.slack{background: url(../images/slack.gif)6em 2em no-repeat;background-size:40%;}
 main > section.getInvolved ul li.google{background: url(../images/googleGroups.png)7em 2em no-repeat;background-size:40%;}
-
 main > section.getInvolved ul li > div{font-size:1.1em;color:#5A6175;font-weight:600;padding-bottom:1.5em;}
-main > section.getInvolved ul li button{background:#FFF;border:1px solid #5FC0C3;border-radius:2px;color:#5FC0C3; padding:.8em 3em; text-transform:uppercase; font-size: 1em; font-weight: 600;font-family:'Raleway',sans-serif}
-main > section.getInvolved ul li button:hover{ background: #5FC0C3; color:#FFF;transition:.5s all;}
+main > section.getInvolved ul li button{background:#FFF;border:1px solid #23BAED;border-radius:2px;color:#23BAED; padding:.8em 3.5em; text-transform:uppercase; font-size: 1em; font-weight: 600;font-family:'Raleway',sans-serif}
+main > section.getInvolved ul li button:hover{ background: #23BAED; color:#FFF;transition:.5s all;}
+/* OUR MISSION SECTION */
+main > section.ourMission{background:#F1F2F5;padding:3em 0;text-align:center;}
+main > section.ourMission h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;}
+main > section.ourMission > section{font-size: 1.1em;}
+main > section.ourMission > section h5{padding-top: 1.2em; font-size: 1em; font-weight: 600;}
+main > section.ourMission ul{width:98%;margin:0 auto;padding:.5em 0 0 0;font-family:'Open Sans',sans-serif;position:relative;top:-30px;}
+main > section.ourMission ul li{width:31.5%;float:left;display:inline-block;margin:0 .6em;color:#696f81; position: relative;}
+main > section.ourMission ul li > span{background:#23BAED;width:100px;height:100px;padding-top:20px;border-radius:50%;display:inline-block;border:8px solid #FFF;position:relative;top:50px;text-align:center;}
+main > section.ourMission ul li > span > i{color: #FFF; font-size: 3.5em; font-weight: normal;}
+main > section.ourMission ul li > div{background:#FFF; padding:4.5em 2em; border-radius:6px;}
+main > section.ourMission ul li > div > h4{color:#23BAED;font-size:1.3em;font-weight:600; padding-bottom: 1em;}
+/* OUR MEMBERS */
+main section.ourMembers{}
