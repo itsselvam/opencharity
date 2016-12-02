@@ -42,7 +42,7 @@ main > section.mainBanner > div > h2{font-size: 4.5em;}
 main > section.mainBanner > div > section{width:60%;margin:0 auto;font-size:1.2em;line-height:1.5em;}
 main > section.mainBanner > div > section > div{font-size:1.4em;line-height:1.5em;padding:2em 0;font-family:'Open Sans',sans-serif}
 /* NEWS SECTION */
-main > section.news{padding:2.5em 0;background:#F1F2F5;text-shadow:none;text-align:left;font-size:1.2em;font-family:'Open Sans',sans-serif}
+main > section.news{padding:2em 0 1.2em 0;background:#F1F2F5;text-shadow:none;text-align:left;font-size:1.2em;font-family:'Open Sans',sans-serif}
 main > section.news > div{margin:0 auto;width:85%;color:#5a6175;}
 main > section.news > div > div{color:#5FC0C3;}
 main > section.news > div > div > span{color:#565659; font-weight:600;}
@@ -71,7 +71,33 @@ main > section.ourMission ul li > span{background:#23BAED;width:100px;height:100
 main > section.ourMission ul li > span > i{color: #FFF; font-size: 3.5em; font-weight: normal;}
 main > section.ourMission ul li > div{background:#FFF; padding:4.5em 2em; border-radius:6px;}
 main > section.ourMission ul li > div > h4{color:#23BAED;font-size:1.3em;font-weight:600; padding-bottom: 1em;}
-/* OUR MEMBERS */
-main section.ourMembers{background:#F1F2F5;padding:0 0 3em 0;text-align:center; }
+/* OUR MEMBERS SECTION */
+main section.ourMembers{background:#F1F2F5;padding:0 0 2em 0;text-align:center; }
 main section.ourMembers > div{border-top:1px solid #d9dadd; width:90%; margin: 0 auto; padding-top:3em}
 main > section.ourMembers > div > h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;}
+main > section.ourMembers > div > ul{margin:0;padding:0;text-align:center;}
+main > section.ourMembers > div > ul > li{float:left;width:13.5%;margin:.5em 3em;vertical-align:middle;height:100px;}
+main > section.ourMembers > div > ul > li.cancerResearch{background: url(../images/cancerResearchUK.png) center no-repeat; background-size:100%}
+main > section.ourMembers > div > ul > li.compuCorp{background: url(../images/compucorp.gif) center no-repeat;background-size:100%}
+main > section.ourMembers > div > ul > li.kops{background: url(../images/kop.gif) center no-repeat;background-size:100%}
+main > section.ourMembers > div > ul > li.zing{background: url(../images/zing.png) center no-repeat;background-size:60%}
+main > section.ourMembers > div > ul > li.comicRelief{background: url(../images/comicRelief.png) center no-repeat;background-size:60%}
+main > section.ourMembers > div > div.sliderIndicator{ padding-top:2.5em; }
+main > section.ourMembers > div > div.sliderIndicator a{width:10px;height:10px;border-radius:50%;background:#979eb1;display: inline-block; margin:.3em;}
+main > section.ourMembers > div > div.sliderIndicator a.active{background:#5fc0c3;}
+/* BLOG SECTION */
+main > section.blog{padding:3em 0;}
+main > section.blog > div > h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;text-align:center;}
+main > section.blog > div > ul{width:95%;margin:0 auto;padding:0;}
+main > section.blog > div > ul > li{float:none;display:inline-block;width:20.5%;margin:.4em 1em;color:#5A6175;font-size:1.2em;}
+main > section.blog > div > ul li:first-child{width:auto;margin:0em;color:#5FC0C3;font-size:2em;line-height:5em;vertical-align:middle;}
+main > section.blog > div > ul li:last-child{width:auto;margin:.2em;color:#5FC0C3;font-size:2em;line-height:5em;}
+main > section.blog > div > ul > li > h4{color:#5FC0C3;padding: 0 0 .5em 0;font-size:1.3em;font-family:'Raleway',sans-serif;font-weight:600;}
+main > section.blog > div > ul > li > div{border-width:1px 0 1px 0;border-style:solid;border-color:#f1f2f5;padding:.8em 0;line-height:1.6em;margin-bottom:1em;}
+main > section.blog > div > ul > li > span{font-weight:600;font-family:'Open Sans',sans-serif;}
+/* FOOTER SECTION */
+footer{padding:2em 0;background:#454850;color:#5fc0c3;text-align:center;}
+footer span{display:inline-block; font-size: 2em; margin:.3em}
+footer span a{color:#5FC0C3}
+footer div{width:90%;border-top:1px solid#575b64;text-align:center;padding:1.3em 0 0 0;color:#969EB6; font-size: 1.2em;font-family:'Raleway',sans-serif; margin: .5em auto 0 auto;}
+footer div a{color:#5FC0C3;}
