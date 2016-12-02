@@ -5,28 +5,23 @@
 font-family: 'Raleway', sans-serif; */
 
 body{font:13px 'Raleway', sans-serif;}
-
 /* We like off-black for text. */
 body,select,input,textarea{color:#333;}
-
+/* Global hyperlink/hover style */
 a{color:#565659;text-decoration:none;}
 a:hover{color:#5FC0C3;transition:.5s color;}
-
 /* Custom text-selection colors */
 ::selection{background:#5FC0C3;color:#FFF;text-shadow:none;}
-
 /*	j.mp/webkit-tap-highlight-color */
 a:link{-webkit-tap-highlight-color:#fcd700;}
 ins{background-color:#fcd700;color:#000;text-decoration:none;}
 mark{background-color:#fcd700;color:#000;font-style:italic;font-weight:bold;}
-
 /* Mozilla dosen't style placeholders by default */
 input:-moz-placeholder{color:#a9a9a9;}
 textarea:-moz-placeholder{color:#a9a9a9;}
-
 /* let's give blockquotes *some* default styling, because unstyled blockquotes are dangerous */
 blockquote{padding:16px;background:#eee;}
-
+/* LAYOUT STYLES STARTS */
 main{background:#FFF;}
 /* HEADER SECTION */
 main > header{padding:3em 0;width:85%;margin:0 auto;}
@@ -52,30 +47,28 @@ main > section.news > div > button:hover{background:#FFF;color:#23BAED; border: 
 main > section.getInvolved{padding:3em 0;text-align:center;}
 main > section.getInvolved h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.5em;}
 main > section.getInvolved ul{width:85%;margin:0 auto;padding:0;font-family:'Open Sans',sans-serif;}
-main > section.getInvolved ul li{width:31.5%;float:left;display:inline-block;padding:12em .5em 0 .5em;margin:0 .6em;color:#696f81}
-main > section.getInvolved ul li h4{font-size:1.5em;text-transform:uppercase;font-weight:600;color:#666; padding-bottom:1.2em;}
-main > section.getInvolved ul li.meetup{background: url(../images/meetup.gif)5em 2em no-repeat;background-size:50%;}
-main > section.getInvolved ul li.slack{background: url(../images/slack.gif)6em 2em no-repeat;background-size:40%;}
-main > section.getInvolved ul li.google{background: url(../images/googleGroups.png)7em 2em no-repeat;background-size:40%;}
+main > section.getInvolved ul li{width:31.5%;float:left;display:inline-block;padding:0 .5em 0;margin:0 .6em;color:#696f81}
+main > section.getInvolved ul li img{width:40%; padding:0 0 2em 0;}
+main > section.getInvolved ul li h4{font-size:1.5em;text-transform:uppercase;font-weight:600;color:#666;padding-bottom:.6em;}
 main > section.getInvolved ul li > div{font-size:1.1em;color:#5A6175;font-weight:600;padding-bottom:1.5em;}
 main > section.getInvolved ul li button{background:#FFF;border:1px solid #23BAED;border-radius:2px;color:#23BAED; padding:.8em 3.5em; text-transform:uppercase; font-size: 1em; font-weight: 600;font-family:'Raleway',sans-serif}
-main > section.getInvolved ul li button:hover{ background: #23BAED; color:#FFF;transition:.5s all;}
+main > section.getInvolved ul li button:hover{background: #23BAED; color:#FFF;transition:.5s all;}
 /* OUR MISSION SECTION */
 main > section.ourMission{background:#F1F2F5;padding:3em 0;text-align:center;}
 main > section.ourMission h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;}
 main > section.ourMission > section{font-size: 1.1em;}
 main > section.ourMission > section h5{padding-top: 1.2em; font-size: 1em; font-weight: 600;}
-main > section.ourMission ul{width:85%;margin:0 auto;padding:.5em 0 0 0;font-family:'Open Sans',sans-serif;position:relative;top:-30px;}
-main > section.ourMission ul li{width:31.5%;display:inline-block;margin:0 .6em;color:#696f81; position: relative;}
+main > section.ourMission ul{width:95%;margin:0 auto;padding:.5em 0 0 0;font-family:'Open Sans',sans-serif;position:relative;top:-30px;}
+main > section.ourMission ul li{width:28%;display:inline-block;margin:0 1em;color:#696f81; position: relative;}
 main > section.ourMission ul li > span{background:#23BAED;width:100px;height:100px;padding-top:20px;border-radius:50%;display:inline-block;border:8px solid #FFF;position:relative;top:50px;text-align:center;}
 main > section.ourMission ul li > span > i{color: #FFF; font-size: 3.5em; font-weight: normal;}
-main > section.ourMission ul li > div{background:#FFF; padding:4.5em 2em; border-radius:6px;}
+main > section.ourMission ul li > div{background:#FFF; padding:4.5em 2em 3em 2em; border-radius:6px;}
 main > section.ourMission ul li > div > h4{color:#23BAED;font-size:1.3em;font-weight:600; padding-bottom: 1em;}
 /* OUR MEMBERS SECTION */
 main section.ourMembers{background:#F1F2F5;padding:0 0 2em 0;text-align:center; }
 main section.ourMembers > div{border-top:1px solid #d9dadd; width:90%; margin: 0 auto; padding-top:3em}
 main > section.ourMembers > div > h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;}
-main > section.ourMembers > div > ul{margin:0;padding:0;text-align:center;}
+main > section.ourMembers > div > ul{margin:0 auto;padding:0;text-align:center;}
 main > section.ourMembers > div > ul > li{float:left;width:13.5%;margin:.5em 3em;vertical-align:middle;height:100px;}
 main > section.ourMembers > div > ul > li.cancerResearch{background: url(../images/cancerResearchUK.png) center no-repeat; background-size:100%}
 main > section.ourMembers > div > ul > li.compuCorp{background: url(../images/compucorp.gif) center no-repeat;background-size:100%}
@@ -89,11 +82,11 @@ main > section.ourMembers > div > div.sliderIndicator a.active{background:#5fc0c
 main > section.blog{padding:3em 0;}
 main > section.blog > div > h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;text-align:center;}
 main > section.blog > div > ul{width:95%;margin:0 auto;padding:0;}
-main > section.blog > div > ul > li{float:none;display:inline-block;width:20.5%;margin:.4em 1em;color:#5A6175;font-size:1.2em;}
-main > section.blog > div > ul li:first-child{width:auto;margin:0em;color:#5FC0C3;font-size:2em;line-height:5em;vertical-align:middle;}
-main > section.blog > div > ul li:last-child{width:auto;margin:.2em;color:#5FC0C3;font-size:2em;line-height:5em;}
-main > section.blog > div > ul > li > h4{color:#5FC0C3;padding: 0 0 .5em 0;font-size:1.3em;font-family:'Raleway',sans-serif;font-weight:600;}
-main > section.blog > div > ul > li > div{border-width:1px 0 1px 0;border-style:solid;border-color:#f1f2f5;padding:.8em 0;line-height:1.6em;margin-bottom:1em;}
+main > section.blog > div > ul > li{display:inline-block;width:20.5%;margin:.4em 1em;color:#5A6175;font-size:1.2em;}
+main > section.blog > div > ul li:first-child {width:auto;margin:0em;color:#5FC0C3;font-size:2em;vertical-align:top;padding-top:3em;}
+main > section.blog > div > ul li:last-child{width:auto;margin:.2em;color:#5FC0C3;font-size:2em;vertical-align:top;padding-top:3em;}
+main > section.blog > div > ul > li > h4{color:#5FC0C3;padding: 0 0 .5em 0;font-size:1.1em;font-family:'Raleway',sans-serif;font-weight:600;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;width:185px;}
+main > section.blog > div > ul > li > div{border-width:1px 0 1px 0;border-style:solid;border-color:#f1f2f5;padding:.8em 0;line-height:1.6em;margin-bottom:1em; }
 main > section.blog > div > ul > li > span{font-weight:600;font-family:'Open Sans',sans-serif;}
 /* FOOTER SECTION */
 footer{padding:2em 0;background:#454850;color:#5fc0c3;text-align:center;}
@@ -101,3 +94,41 @@ footer span{display:inline-block; font-size: 2em; margin:.3em}
 footer span a{color:#5FC0C3}
 footer div{width:90%;border-top:1px solid#575b64;text-align:center;padding:1.3em 0 0 0;color:#969EB6; font-size: 1.2em;font-family:'Raleway',sans-serif; margin: .5em auto 0 auto;}
 footer div a{color:#5FC0C3;}
+
+/*MEDIA QUERIES---------------------------------------------------*/
+@media screen and (min-width: 1280px) {
+	main > section.ourMembers > div > ul > li.cancerResearch {margin:.5em 2.8em;}
+	main > section.blog > div > ul > li{width:20%;}
+	main > section.ourMembers > div > ul > li{width:13%;}
+}
+@media screen and (max-width: 1024px){
+	main > section.ourMembers > div > ul > li{margin: .5em 2.2em;}
+	main > section.blog > div > ul > li{width: 19%;}
+	main > section.ourMission ul li{width: 25%;}
+}
+@media screen and (max-width: 960px){}
+@media screen and (max-width: 768px){
+	main > header{width: 95%;}
+	main > header > ul li{visibility: hidden;display: none;}
+	main > header > ul li.joinus{visibility:visible;display: inline-block;}
+	main > section.mainBanner > div > section{width: 80%;}
+	main > section.news > div{width: 95%;}
+	main > section.getInvolved ul{width:95%}
+	main > section.getInvolved ul li{width: 30%;float:none;padding:0;}
+	main > section.getInvolved ul li > div{font-size: 1em;}
+	main > section.ourMission ul li{width: 30%; margin: 0 .8em;}
+	main > section.ourMission ul li > div{padding: 4.5em 1em 3em 1em;}
+	main > section.ourMembers > div > ul > li{margin:.5em 1.3em;width:15%;}
+	main > section.ourMembers > div > div.sliderIndicator{padding-top:0; }
+	main > section.blog > div > ul{width: 100%;}
+	main > section.blog > div > ul > li{width:18.5%;font-size:.9em;vertical-align:top;}
+	main > section.blog > div > ul li:first-child{padding-top:2em;}
+	main > section.blog > div > ul li:last-child{padding-top:2em;}
+	footer span{font-size: 1.5em;}
+	footer div{font-size: 1em;}
+
+
+}
+@media screen and (max-width: 568px){}
+@media screen and (max-width: 480px){}
+@media screen and (max-width: 320px){}
