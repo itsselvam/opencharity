@@ -67,11 +67,11 @@ main section.ourMembers > div{border-top:1px solid #d9dadd; width:90%; margin: 0
 main > section.ourMembers > div > h3{font-size:2em;color:#565659;font-family:'Raleway',sans-serif;text-transform:uppercase; font-weight:600;padding-bottom:1.2em;}
 main > section.ourMembers > div > ul{margin:0 auto;padding:0;text-align:center;}
 main > section.ourMembers > div > ul > li{float:left;width:13.5%;margin:.5em 3em;vertical-align:middle;height:100px;}
-main > section.ourMembers > div > ul > li.cancerResearch{background: url(../images/cancerResearchUK.png) center no-repeat; background-size:100%}
-main > section.ourMembers > div > ul > li.compuCorp{background: url(../images/compucorp.gif) center no-repeat;background-size:100%}
-main > section.ourMembers > div > ul > li.kops{background: url(../images/kop.gif) center no-repeat;background-size:100%}
-main > section.ourMembers > div > ul > li.zing{background: url(../images/zing.png) center no-repeat;background-size:60%}
-main > section.ourMembers > div > ul > li.comicRelief{background: url(../images/comicRelief.png) center no-repeat;background-size:60%}
+main > section.ourMembers > div > ul > li.cancerResearch{background: url(../images/cancerResearchUK.png) center no-repeat; background-size:contain}
+main > section.ourMembers > div > ul > li.compuCorp{background: url(../images/compucorp.gif) center no-repeat;background-size:contain}
+main > section.ourMembers > div > ul > li.kops{background: url(../images/kop.gif) center no-repeat;background-size:contain}
+main > section.ourMembers > div > ul > li.zing{background: url(../images/zing.png) center no-repeat;background-size:contain}
+main > section.ourMembers > div > ul > li.comicRelief{background: url(../images/comicRelief.png) center no-repeat;background-size:contain}
 main > section.ourMembers > div > div.sliderIndicator{padding-top:2.5em;clear:both;}
 main > section.ourMembers > div > div.sliderIndicator a{width:10px;height:10px;border-radius:50%;background:#979eb1;display: inline-block; margin:.3em;}
 main > section.ourMembers > div > div.sliderIndicator a.active{background:#5fc0c3;}
