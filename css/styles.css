@@ -22,9 +22,8 @@ blockquote{padding:16px;background:#eee;}
 /* LAYOUT STYLES STARTS */
 main{background:#FFF;}
 /* HEADER SECTION */
-main > header{padding:3em 0;width:85%;margin:0 auto;}
+main > header{padding:2.5em 0;width:85%;margin:0 auto;}
 main > header > h1 {display: inline;}
-main > header > h1 img {}
 main > header > ul {margin:0;padding:0;float:right;font-family:'Raleway',sans-serif;}
 main > header > ul li {display:inline-block;text-transform:uppercase;color:#565659;padding:1em;font-size:1.2em;font-weight:bold;}
 main > header > ul li.joinus a{border:1px solid #23baed; border-radius:2px; color:#5FC0C3; padding:.6em 1.7em ;}
@@ -57,7 +56,7 @@ main > section.ourMission h3{font-size:2em;color:#565659;font-family:'Raleway',s
 main > section.ourMission > section{font-size: 1.1em;}
 main > section.ourMission > section h5{padding-top: 1.2em; font-size: 1em; font-weight: 600;}
 main > section.ourMission ul{width:95%;margin:0 auto;padding:.5em 0 0 0;font-family:'Open Sans',sans-serif;position:relative;top:-30px;}
-main > section.ourMission ul li{width:28%;display:inline-block;margin:0 1em;color:#696f81; position: relative;}
+main > section.ourMission ul li{width:25%;display:inline-block;margin:0 1em;color:#696f81; position: relative;}
 main > section.ourMission ul li > span{background:#23BAED;width:100px;height:100px;padding-top:20px;border-radius:50%;display:inline-block;border:8px solid #FFF;position:relative;top:50px;text-align:center;}
 main > section.ourMission ul li > span > i{color: #FFF; font-size: 3.5em; font-weight: normal;}
 main > section.ourMission ul li > div{background:#FFF; padding:4.5em 2em 3em 2em; border-radius:6px;}
@@ -73,7 +72,7 @@ main > section.ourMembers > div > ul > li.compuCorp{background: url(../images/co
 main > section.ourMembers > div > ul > li.kops{background: url(../images/kop.gif) center no-repeat;background-size:100%}
 main > section.ourMembers > div > ul > li.zing{background: url(../images/zing.png) center no-repeat;background-size:60%}
 main > section.ourMembers > div > ul > li.comicRelief{background: url(../images/comicRelief.png) center no-repeat;background-size:60%}
-main > section.ourMembers > div > div.sliderIndicator{ padding-top:2.5em; }
+main > section.ourMembers > div > div.sliderIndicator{padding-top:2.5em;clear:both;}
 main > section.ourMembers > div > div.sliderIndicator a{width:10px;height:10px;border-radius:50%;background:#979eb1;display: inline-block; margin:.3em;}
 main > section.ourMembers > div > div.sliderIndicator a.active{background:#5fc0c3;}
 /* BLOG SECTION */
@@ -104,7 +103,7 @@ footer div a:hover{color:#FFF;text-decoration:underline;}
 @media screen and (max-width: 1024px){
 	main > section.ourMembers > div > ul > li{margin: .5em 2.2em;}
 	main > section.blog > div > ul > li{width: 19%;}
-	main > section.ourMission ul li{width: 25%;}
+	main > section.ourMission ul li{width: 24%;}
 }
 @media screen and (max-width: 960px){
 	main > header > ul li{visibility: hidden;display: none;}
@@ -113,24 +112,55 @@ footer div a:hover{color:#FFF;text-decoration:underline;}
 
 @media screen and (max-width: 768px){
 	main > header{width: 95%;}
-	
 	main > section.mainBanner > div > section{width: 80%;}
 	main > section.news > div{width: 95%;}
+	main > section.news > div > button{float:none;top:10px;}
 	main > section.getInvolved ul{width:95%}
 	main > section.getInvolved ul li{width: 30%;float:none;padding:0;}
-	main > section.getInvolved ul li > div{font-size: 1em;}
-	main > section.ourMission ul li{width: 30%; margin: 0 .8em;}
-	main > section.ourMission ul li > div{padding: 4.5em 1em 3em 1em;}
-	main > section.ourMembers > div > ul > li{margin:.5em 1.3em;width:15%;}
+	main > section.getInvolved ul li > div{font-size:.85em;}
+	main > section.getInvolved ul li button{font-size: .9em;}
+	main > section.ourMission ul li{width:32%;margin:0 .2em;}
+	main > section.ourMission ul li > div{padding:4.5em 1em 3em 1em;}
+	main > section.ourMembers > div > ul > li{margin:.5em 1.15em;width:15%;}
 	main > section.ourMembers > div > div.sliderIndicator{padding-top:0; }
-	main > section.blog > div > ul{width: 100%;}
-	main > section.blog > div > ul > li{width:18.5%;font-size:.9em;vertical-align:top;}
-	main > section.blog > div > ul li:first-child{padding-top:2em;}
-	main > section.blog > div > ul li:last-child{padding-top:2em;}
-	footer span{font-size: 1.5em;}
-	footer div{font-size: 1em;}
-
+	main > section.blog > div > ul{width:100%;}
+	main > section.blog > div > ul > li{width:21%;font-size:.9em;vertical-align:top;}
+	main > section.blog > div > ul li:first-child{display:none;}
+	main > section.blog > div > ul li:last-child{display:none;}
+	footer span{font-size:1.5em;}
+	footer div{font-size:1em;}
 
 }
-@media screen and (max-width: 480px){}
-@media screen and (max-width: 320px){}
+@media screen and (max-width: 732px){
+	main > section.news > div > button{float: right; top:-20px}
+	main > section.blog > div > ul > li > h4{width: auto;}
+}
+@media screen and (max-width: 667px){
+	main > section.ourMembers > div > ul > li{margin:.5em 1.15em;}
+	main > section.blog > div > ul > li{width: 20.3%;}
+	main > section.blog > div > ul > li > h4{width: auto;}
+	main > section.news > div > button{top:6px;float: none;}
+
+}
+@media screen and (max-width: 480px){
+	main > header > h1 img {width:60%;}
+	main > header > ul li{padding:0;}
+	main > header > ul li.joinus a{position:relative;top:11px; }
+	main > section.mainBanner > div > h2{font-size:3em;}
+	main > section.mainBanner > div > section{font-size:1em;}
+	main > section.mainBanner > div > section > div{font-size:1.2em;line-height:1.2em;}
+	main > section.news{text-align:center;}
+	main > section.news > div > button{display:block;margin:1em auto;float:none;top:0;padding:.7em 6em;}
+	main > section.getInvolved ul li{width:90%;margin:0 0 2.5em 0;padding:0 0 2.5em 0;border-bottom:1px solid #f1f2f5;}
+	main > section.ourMission{padding:3em 1em;}
+	main > section.ourMission ul li{width:auto;}
+	main > section.ourMembers > div > ul > li{margin:2em auto;width:40%;float:none;}
+	main > section.blog > div > ul > li{width:auto; margin-bottom:2em;}
+
+	main > section.blog > div > ul > li > div{border-width:1px 0 0px 0;margin:0;}
+}
+@media screen and (max-width: 320px){
+	main > header > h1{display:block;text-align:center;}
+	main > header > h1 img{width:80%;}
+	main > header > ul{float:none;text-align:center;padding-top:1.5em;}
+}
